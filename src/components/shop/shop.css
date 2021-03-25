@@ -1,0 +1,217 @@
+
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 2rem 0;
+}
+.products h1{
+}
+
+.product{
+    padding: 0.2rem;
+}
+.title{
+    margin-top: 1rem;
+    text-align: center;
+}
+.title h1{
+    font-size: 3rem;
+
+}
+
+/* product detail */
+.details{
+    margin: 3rem 6rem;
+}
+.details_description_wrapper{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.thumbnails{
+    display: flex;
+}
+.thumbnail {
+    margin: .5rem;
+    max-width: 5rem;
+}
+.detail_image{
+    background: whitesmoke;
+}
+
+.detail_description{
+    padding: 3rem;
+    margin:0 4rem;
+    background: whitesmoke;
+}
+
+.detail_image img{
+    max-width: 100%;
+}
+
+
+.item_quantity{
+    display: inline-flex;
+    margin: 1rem 0;
+    width: 100%;
+}
+
+.qty{
+    margin-right: .5rem;
+}
+
+.Qty {
+    text-align: center;
+    background-color: burlywood;
+    height: 29px;
+    padding: 3px; }
+
+.QtyButton {
+    height: 30px;
+    background: #ebebeb;
+    justify-content: center;
+    align-items: center;
+    color: #1b1b1b; }
+
+.QtyMinus {
+    border: solid 1px #ebebe4;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px; }
+
+.QtyPlus {
+    border: 1px solid #ebebe4;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px; }
+
+.detail {
+    margin: 2rem 0;
+    text-align: left;
+    line-height: 1.8;
+}
+.lower_title{
+    margin: 3rem 0;
+}
+.lower_title h3{
+    color: black;
+    outline: none;
+}
+.headings{
+    display: inline-flex;
+}
+.box-item{
+    background: whitesmoke;
+    height: fit-content;
+    padding: .75rem;
+    text-align: left;
+}
+.box-item li{
+    list-style: circle;
+    margin-left: .5rem;
+}
+
+.price{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.list{
+    display: inline-flex;
+    cursor: pointer;
+}
+.list:active {
+    background-color: #0071e3;
+    color: #0071e3;
+}
+.via, .shipping_price{
+    margin-left: 3rem;
+}
+.shipping{
+    display: inline-flex;
+    margin-bottom: 2rem;
+}
+.chosen{
+    margin-left: 1rem;
+    border: 1px;
+}
+
+.locationBtn:focus {
+    background-color: #0071e3;
+    color: white;
+}
+.close{
+    font-size: 3rem !important;
+    color: red !important;
+}
+/**/
+
+/* For devices with width of 480px and less, like phones */
+@media only screen and (max-width: 480px) {
+    .detail_image img{
+        max-width: 100%;
+    }
+    .detail_description{
+        padding: 1rem;
+        margin: 1rem;
+    }
+    .box-item{
+        margin: 1rem;
+    }
+    .lower_title h3{
+        font-size: 1rem;
+    }
+    .thumbnail{
+        margin: 1rem .155rem;
+    }
+}
+
+/* For devices with width between 481px and 768px, like larger phones and portrait tablets */
+
+
+/* For devices with width between 769px and 1279px, like landscape tablets and laptops */
+@media only screen and (min-width: 768px) {
+    .detail_description{
+        padding: 1rem;
+        margin-left: 1rem;
+        margin-right: -3rem;
+        margin-top: 2rem;
+    }
+    .detail_image{
+        margin-left: -1.5rem;
+    }
+    .box-item{
+        margin-top: 2rem;
+        margin-left: 4rem;
+        width: fit-content;
+    }
+
+}
+
+@media only screen and (min-width: 900px) {
+
+    .detail_image img{
+        max-width: 100%;
+    }
+
+}
+/* For devices with width of 1280px and more, like desktop computers */
+@media only screen and (min-width: 1280px) {
+    .detail_image{
+        max-width: 50%;
+        text-align: left;
+    }
+    .details_description_wrapper{
+        flex-wrap: nowrap;
+    }
+    .box-item{
+        width: 20rem;
+        margin-top: -5rem;
+    }
+    .detail_description{
+        padding: 3rem;
+        margin-top: 0;
+    }
+    .detail_image{
+        height: fit-content;
+    }
+
+}

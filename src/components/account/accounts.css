@@ -1,0 +1,40 @@
+.accounts{
+    margin: 2rem;
+    padding: 1rem;
+}
+
+.acc_head h1 {
+    text-align: center;
+    display: inline-flex;
+}
+.login-card {
+    background-color: floralwhite;
+
+    margin: 3rem 0;
+    max-width: fit-content;
+    padding: 3rem;
+}
+.login-card div:first-child {
+
+}
+.sign_up .sign_in {
+
+}
+.in_head, .up_head {
+    margin-bottom: 1.5rem;
+}
+.nav_active {
+    color: #0071e3 !important;
+}
+.nav_active:hover{
+
+}
+.acc_head h1 a{
+    color: black;
+}
+.acc_head h1 a:hover{
+    color: #0071e3;
+}
+.password0{
+    display: inline-flex;
+}

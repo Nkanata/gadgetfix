@@ -1,0 +1,297 @@
+.cart_component{
+    padding: 1rem;
+    text-align: center;
+}
+
+.items{
+}
+
+.item_image img{
+    max-width: 100%;
+}
+.item_detail{
+    margin-top: .5rem;
+    margin-left: .5rem;
+    font-size: 1.1rem;
+}
+
+.view_details{
+    margin-top: .5rem;
+    text-align: right;
+    font-size: .9rem;
+    color: #0071e3;
+}
+.total{
+    background-color: floralwhite;
+    margin-top: .5rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.to_checkout{
+    background-color: floralwhite;
+    margin-top: 2rem;
+    padding: 1rem;
+}
+.to_checkout p{
+    margin-bottom: 0;
+}
+.holder{
+    background-color: floralwhite;
+    padding: 1rem;
+}
+.cart_price{
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.non_in_cart{
+    margin: 3rem 1rem;
+    padding: 1rem;
+    background-color: floralwhite;
+    text-align: center;
+}
+
+.continue_shopping{
+    margin: 1rem 0;
+    padding: .5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    background-color: floralwhite;
+    text-align: center;
+}
+.continue_shopping p{
+    margin-bottom: 0;
+    width: fit-content;
+
+}
+.item{
+    margin-bottom: 1rem;
+    background-color: floralwhite;
+
+}
+.checkout_heading{
+    margin: 2rem 0;
+}
+.checkout_form{
+    display: table-caption;
+    margin-left: 2rem;
+    margin-top: .5rem;
+}
+.checkout_form form label span{
+    color: red;
+}
+.checkout_form label{
+    text-align: left !important;
+}
+.checkout_form form input{
+    margin-bottom: 1.5rem;
+}
+.orders{
+    background-color: floralwhite;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+.orders {
+}
+/* summary styles*/
+.order_summary{
+    background-color: floralwhite;
+    padding: 2rem;
+}
+.payButton{
+    text-align: right;
+    margin-right: 2rem;
+}
+
+.order_image{
+    width: 10rem;
+}
+.order_image img{
+    max-width: 100%;
+}
+.summary{
+}
+
+.orderee {
+    margin-left: 20%;
+    margin-top: .8rem;
+}
+
+.review_head{
+    margin-left: 40%;
+}
+
+.item_name{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.items_detail{
+    margin-left: 2rem;
+
+}
+.total_price{
+    margin-top: 1.5rem;
+    text-align: right;
+    font-weight: 500;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+.item_prices{
+    margin-left: 3rem;
+    padding: .8rem;
+}
+.item_price{
+    margin-bottom: 1rem;
+}
+.summary_details p{
+    padding: .5rem;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+.mPesa_logo img{
+    max-width: 100%;
+}
+.mpesa_title{
+    text-align: center;
+    margin: 1.5rem 0;
+}
+
+/**/
+.payment{
+    text-align: center;
+}
+.mPesa_logo {
+    text-align: center;
+}
+
+.payConfirm{
+    margin-top: .5rem;
+}
+
+/**/
+.thank p{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+@media only screen and (max-width: 480px) {
+    .item_image{
+        width: 100%;
+        padding: .5rem;
+    }
+    .cart_price{
+        margin-top: .5rem;
+        margin-left: 1.5rem;
+
+    }
+    .item{
+    }
+    .view_details{
+        margin-right: .5rem;
+        padding-bottom: .5rem;
+    }
+    /* summary */
+    .review_head{
+        display: none;
+    }
+    .orderee{
+        margin: 2rem 0;
+        text-align: center;
+    }
+    .header{
+        text-align: center;
+    }
+    .header h3{
+        font-weight: 600;
+        font-size: 1.5rem;
+    }
+    .orderee_header h4{
+        font-weight: 600;
+        margin-bottom: 1rem;
+    }
+    .items_detail{
+        margin: 0;
+    }
+    .order_image{
+        width: 100%;
+    }
+    .item_prices{
+        margin: 0;
+    }
+
+    /**/
+    /*payment */
+    .mPesa_logo {
+        width: 10rem;
+        margin-left: 25%;
+    }
+    /**/
+}
+@media only screen and (min-width: 768px) {
+.view_details{
+    margin-right: 3rem;
+    padding-bottom: 1rem;
+}
+    /*summary*/
+    .order_summary{
+        margin: 0 14rem;
+    }
+    .header{
+        width: 100%;
+        display: inline-flex;
+    }
+    .summaryContainer{
+        display: flex;
+    }
+    .orderee{
+        margin-right: -1rem;
+    }
+    .items_detail{
+        margin-left: .8rem;
+    }
+    .orderee_header{
+        display: none;
+    }
+    .summary_item{
+        display: flex;
+    }
+    .item_prices{
+        margin: 0;
+        padding: .4rem;
+    }
+    /**/
+    /* payment */
+    .mPesa_logo{
+        width: 10rem;
+        margin-left: 38%;
+    }
+    /**/
+}
+@media only screen and (min-width: 1280px){
+    /* summary*/
+    .order_summary{
+        margin: 0 14rem;
+    }
+    .header{
+        width: 100%;
+        display: inline-flex;
+    }
+    .summaryContainer{
+        display: flex;
+    }
+    .orderee_header{
+        display: none;
+    }
+    .summary_item{
+        display: flex;
+    }
+    /**/
+    /* payment*/
+    .mPesa_logo{
+        width: 5rem;
+        margin-left: 46%;
+    }
+    /**/
+
+}

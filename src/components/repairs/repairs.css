@@ -1,0 +1,195 @@
+.intro_image {
+    text-align: center;
+    margin: 1rem;
+}
+
+.intro_image img{
+    max-width: 50%;
+}
+.phone_repairs{
+    background: whitesmoke;
+    margin: 3rem 0;
+}
+.comp_repairs{
+    background: whitesmoke;
+    margin: 2rem 0;
+}
+.call {
+    background: whitesmoke;
+}
+.call p{
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.phone_repair_link a:hover{
+    color: #c8bcac;
+    outline: none;
+}
+.phone_repair_component{
+    background-color: white;
+    margin: 2rem 0;
+    text-align: center;
+}
+.component_heading{
+    font-weight: 400;
+}
+.phone_table {
+    text-align: -moz-center;
+    padding: 1rem;
+}
+.phone_table table th{
+    border: 0;
+    border-bottom: 1px solid #dddddd;
+    padding: 8px;
+    line-height: 1.5;
+}
+.phone_table table th:first-child{
+    text-align: right;
+}
+.phone_table table th:last-child{
+    text-align: center;
+}
+.phone_table table td{
+    line-height: 1.5;
+    border: none;
+    border-right: 1px solid #dddddd;
+    padding: .8em;
+    text-align: center;
+}
+
+.phone_table table td:first-child{
+    text-align: right;
+}
+
+.phone_table table td:last-child{
+    border-right: none;
+}
+
+.t_table{
+    border-collapse: collapse;
+    min-width: 500px;
+    max-width: 100%;
+    margin-top: 2rem;
+    font-size: 18px;
+}
+
+@media only screen and (max-width: 480px) {
+    .phone_title{
+        padding: 1.5rem;
+    }
+    .phone_repair_image{
+        padding: 1rem;
+        margin-top: 1rem;
+    }
+    .phone_repair_image img{
+        max-width: 100%;
+    }
+
+    .comp_repair_image{
+        padding: 1rem;
+    }
+    .comp_repair_image img{
+        max-width: 100%;
+    }
+    .comp_repair_details{
+        padding: 1rem;
+        margin:  1rem 0;
+    }
+}
+@media only screen and (min-width: 481px) {}
+@media only screen and (min-width: 768px) {
+    .phone_title{
+        padding: 1.5rem;
+    }
+    .phone_repair_image{
+        padding: 1rem;
+        margin-top: 1rem;
+    }
+    .phone_repair_image img{
+        max-width: 100%;
+    }
+
+    .comp_repair_image{
+        padding: 1rem;
+    }
+    .comp_repair_image img{
+        max-width: 100%;
+    }
+    .comp_repair_details{
+        padding: 1rem;
+        margin:  1rem 0;
+        text-align: center;
+    }
+    .phone_repair_details{
+        text-align: center;
+    }
+}
+@media only screen and (min-width: 1280px) {
+    .phone_title{
+        padding: 1.5rem 1.5rem 0 1.5rem;
+        text-align: center;
+    }
+    .repair_detail{
+
+        text-align: center;
+    }
+    .phone_repair_link{
+        margin-top: 2rem;
+        text-align: center;
+    }
+    .phone_repairs{
+        display: block;
+        padding: 2rem;
+    }
+    .phone_repair_image{
+        text-align:  right;
+        margin-left: 50%;
+        margin-top: -14rem;
+    }
+    .phone_repair_image img{
+        max-width: 100%;
+
+    }
+    .phone_repair_details{
+        text-align: left;
+        max-width: 50%;
+    }
+    .comp_repairs{
+        padding: 2rem;
+        margin: 2rem 0;
+    }
+    .comp_repair_image{
+        text-align: left;
+        margin-right: 50%;
+    }
+    .comp_repair_image img{
+        max-width: 100%;
+        margin-bottom: 2rem;
+    }
+    .comp_repair_details{
+        text-align: right;
+        margin-top: -20rem;
+        margin-bottom: 5rem;
+    }
+    .comp_details, .comp_title{
+        margin-left: 50%;
+        text-align: center;
+    }
+    .sidebar{
+        padding: .5rem;
+        text-align: left;
+        background-color: white;
+        margin-top: 2rem;
+        max-width: 11.5rem;
+    }
+    .side-position{
+        margin-left: 2rem;
+        position: sticky;
+        top: 5rem;
+    }
+    .phone_repair_component{
+        margin-left: 16rem;
+        margin-top: -14rem;
+    }
+}

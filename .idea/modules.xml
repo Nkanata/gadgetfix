@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/gadgetshop.iml" filepath="$PROJECT_DIR$/.idea/gadgetshop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../gadgetfix/.idea/gadgetfix.iml" filepath="$PROJECT_DIR$/../gadgetfix/.idea/gadgetfix.iml" />
     </modules>
   </component>
 </project>

@@ -1,38 +1,189 @@
 .App {
-  text-align: center;
+
+    background-color: antiquewhite;
+
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+
+
+@font-face {
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .App-logo {
-  height: 40vmin;
-  pointer-events: none;
+    height: 40vmin;
+    pointer-events: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    font-size: calc(10px + 2vmin);
+    color: #000;
+    text-align: center;
 }
 
 .App-link {
-  color: #61dafb;
+    color: #61dafb;
 }
 
 @keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.app_nav {
+    width: 100%;
+}
+
+.app_nav a {
+    color: black;
+    display: inline;
+}
+
+
+
+.nav-link:hover {
+    color: #968d81;
+}
+
+.app_nav ul {
+    list-style: none;
+}
+
+.app_nav ul li {
+    display: inline;
+
+}
+
+/* For devices with width of 480px and less, like phones */
+@media only screen and (max-width: 480px) {
+    body {
+        max-width: 100%;
+    }
+
+    .image img {
+        max-width: 100%;
+    }
+
+    .map-box iframe {
+        max-width: 100%;
+    }
+
+    .repair_image img {
+        max-width: 100%;
+    }
+    .links{
+        display: none;
+        padding-left: 0;
+    }
+    .links li :nth-child(3){
+        display: none;
+    }
+    .search{
+        display: inline-flex;
+        margin-left: 1.5rem;
+    }
+    .search input{
+        width: 13rem;
+    }
+    .search .form-inline{
+        flex-flow: nowrap;
+    }
+    .search button{
+        margin-top: 0;
+    }
+
+    .icons{
+        display: inline;
+        height: auto;
+        margin: 0;
+    }
+    .icons .cart{
+        margin-top: -6rem;
+        margin-left: calc(100% - 3rem);;
+        margin-right: -2.5rem;
+        text-align: right;
+        padding: 0.1rem;
+    }
+    .icons .user{
+        margin-top: -9rem;
+        margin-right: calc(100% - 2rem);
+        margin-left: -1rem;
+    }
+    nav{
+        height: 5rem;
+    }
+
+
+}
+
+/* For devices with width between 481px and 768px, like larger phones and portrait tablets */
+@media only screen and (min-width: 481px) {
+
+}
+
+/* For devices with width between 769px and 1279px, like landscape tablets and laptops */
+@media only screen and (min-width: 768px) {
+  .search{
+      text-align: center;
+      margin-left: 30%;
   }
-  to {
-    transform: rotate(360deg);
-  }
+    .icons {
+        text-align: right;
+        margin-top: -3rem;
+    }
+    .icons .btn {
+        margin-left: 4rem !important;
+    }
+    .links {
+        text-align: center;
+        padding-top: 1rem;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+}
+
+/* For devices with width of 1280px and more, like desktop computers */
+@media only screen and (min-width: 1280px) {
+
+    .app_nav{
+        text-align: center;
+        padding-top: 1rem;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .links{
+        padding: 0;
+        width: 50%;
+        display: block !important;
+    }
+    .search{
+        align-items: center;
+        text-align: center;
+        margin: 0;
+    }
+    .icons{
+        margin:0;
+    }
+
 }

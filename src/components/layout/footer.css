@@ -1,0 +1,124 @@
+.footer_title{
+    margin-bottom: 1rem;
+    text-align: center;
+}
+.social_list{
+    text-align: right;
+}
+.social_list ul{
+    list-style: none;
+    border-bottom: 1px;
+    border-bottom-color: black;
+    border-bottom-style: solid;
+}
+.social_list li{
+    display: inline;
+    padding-right: 1rem;
+    align-items: end;
+}
+.social_list li a{
+    color: antiquewhite;
+}
+.social_list li a:hover{
+    color: #968d81;
+}
+footer {
+    margin-bottom: 1rem;
+    background-color: #191715;
+    color: antiquewhite;
+    padding-top: 2rem;
+}
+footer p{
+    color: #afa496;
+}
+.bottom_nav{
+    bottom: 0;
+    max-width: 100%;
+    position: fixed;
+    color: antiquewhite;
+    height: 4rem;
+
+}
+.bottom_nav_links {
+    list-style: none;
+    display: inline-flex;
+    padding: 0;
+}
+.bottom_nav_links li{
+    padding-left: 1.5rem;
+}
+.bottom_nav li span{
+    color: antiquewhite;
+}
+
+.bottom_nav_links li:nth-child(1){
+    padding-left: 0;
+}
+.bottom_nav_links li:nth-child(5) {
+}
+
+.bottom_nav_links li a img{
+    max-width: 1.5rem;
+}
+.copyright{
+    text-align: center;
+}
+.contact_details{
+    text-align: center;
+}
+
+
+/* For devices with width of 480px and less, like phones */
+@media screen and (max-width: 480px){
+    .find_us {
+        margin: 2rem;
+    }
+}
+
+/* For devices with width between 481px and 768px, like larger phones and portrait tablets */
+@media only screen and (min-width: 481px) {
+
+.call_us {
+    max-width: 100%;
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.find_us {
+    margin: 2rem;
+}
+
+
+}
+
+
+/* For devices with width between 769px and 1279px, like landscape tablets and laptops */
+@media only screen and (min-width: 768px) {
+.call_us{
+    text-align: left;
+}
+    .call_us p{
+        padding-left: .75rem;
+    }
+
+    .find_us{
+        text-align: right;
+        margin-top: -8rem;
+    }
+    .social_list{
+        text-align: right;
+    }
+    .bottom_nav{
+        display: none;
+    }
+}
+
+/* For devices with width of 1280px and more, like desktop computers */
+@media only screen and (min-width: 1280px) {
+    .call_us{
+        padding-left: 1rem;
+    }
+    .bottom_nav{
+        display: none;
+    }
+}
