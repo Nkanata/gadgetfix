@@ -25,7 +25,6 @@ import {get_product_categories, getProducts} from "./components/store/actions/ge
 
 class App extends Component {
 
-
     constructor(props) {
         super(props);
 
@@ -58,7 +57,6 @@ class App extends Component {
         })
     };
 
-
     handleLink = (e) => {
         //e.preventDefault();
         console.log("clicked")
@@ -74,14 +72,13 @@ class App extends Component {
         const CheckOutHoc = withRouter(CheckOut);
         return (
             <>
-
                 <BrowserRouter>
                     <div className="App">
-
 
                         <header className="App-header">
                             <h1>The Gadget Fix</h1>
                         </header>
+                        
                         <div className="sticky-top">
                             <nav className="navbar navbar-light navbar-expand-lg bg-light ">
                                 <div className="app_nav ">
